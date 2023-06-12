@@ -20,6 +20,11 @@ body{
 	float:right ;
 }
 
+#alder{
+	display: block;
+	position: absolute;
+}
+
 #menu ul {
 	border-radius: 30px;
 	background-color: black;
