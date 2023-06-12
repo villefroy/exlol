@@ -1,0 +1,1954 @@
+body{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(image/fond.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#conteneur {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:0 40px 30px 40px;
+}
+
+#logo{
+	float:right ;
+}
+
+#menu ul {
+	border-radius: 30px;
+	background-color: black;
+	text-align: left;
+    margin-left:40px;
+    margin-right:40px;
+	height:40px;
+	line-height:40px;
+}
+
+
+#menu ul li {
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	display: inline;
+	margin-right: 25px;
+	margin-left: 40px;
+}
+
+#menu ul li a{
+	color:#ffffff;
+    text-decoration:none;
+}
+
+#region {
+    margin-right: auto;
+    margin-left: auto;
+    padding:80px 0 30px 0;
+    text-align: center;
+}
+
+.regionlist{
+    margin-right: auto;
+	margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 800px;
+}
+
+.nomregion{
+    
+    flex: 0 1 19%;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    opacity: 1;
+    position: relative;
+}
+
+.imageregion{
+    border: 2px solid rgb(241, 185, 17);
+	background-color: black;
+    position: absolute;
+    top: 0;
+    height: 160px;
+    width: 160px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.contentregion{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#champion {
+    margin-right: auto;
+    margin-left: auto;
+    padding:80px 0 30px 0;
+    text-align: center;
+}
+
+.champlist{
+    margin-right: auto;
+	margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 800px;
+}
+
+.nomchamp{
+    
+    flex: 0 1 19%;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    opacity: 1;
+    position: relative;
+}
+
+.image{
+    border: 2px solid rgb(241, 185, 17);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    height: 160px;
+    width: 160px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.nom{
+    font-size: 9px;
+    position:absolute;
+    top:80px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 22px;
+    text-align: center;
+    opacity: 0;
+    background-color:rgba(255, 255, 255, 0.4);
+    color:rgb(0, 0, 0);
+}
+
+
+.nom:hover{
+    opacity: 0.9;
+}
+
+.box{
+    margin-top: 250px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: #434343;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+	
+}
+
+
+.description{
+    font-size: 150%;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+#Aatrox{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Aatrox1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+
+#Ahri{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ahri1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Akali{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Akali1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Akshan{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Akshan1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Alistar{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Alistar1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Amumu{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Amumu1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Anivia{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Anivia1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Annie{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Annie1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Aphelios{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Aphelios1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ashe{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ashe1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#AurelionSol{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/AurelionSol1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Azir{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Azir1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Bard{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Bard1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Belveth{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Belveth1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Blitzcrank{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Blitzcrank1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Brand{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Brand1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Braum{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Braum1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Caitlyn{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Caitlyn1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Camille{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Camille1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Cassiopeia{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Cassiopeia1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Chogath{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Chogath1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Corki{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Corki1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Darius{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Darius1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Diana{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Diana1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Draven{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Draven1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#DrMundo{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/DrMundo1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ekko{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ekko1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Elise{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Elise1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Evelynn{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Evelynn1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ezreal{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ezreal1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Fiddlesticks{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Fiddlesticks1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Fiora{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Fiora1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Fizz{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Fizz1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Galio{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Galio1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Gangplank{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Gangplank1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Garen{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Garen1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Gnar{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Gnar1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Gragas{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Gragas1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Graves{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Graves1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Gwen{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Gwen1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Hecarim{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Hecarim1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#illaoi{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/illaoi1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Irelia{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Irelia1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ivern{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ivern1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Janna{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Janna1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#JarvanIV{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/JarvanIV1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Jax{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Jax1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Jayce{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Jayce1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Jhin{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Jhin1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Jinx{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Jinx1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kai-sa{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kai-sa1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kalista{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kalista1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Karma{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Karma1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Karthus{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Karthus1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kassadin{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kassadin1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Katarina{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Katarina1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kayle{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kayle1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kayn{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kayn1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kennen{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kennen1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Khazix{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Khazix1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kindred{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kindred1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Kled{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Kled1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#KogMaw{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/KogMaw1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#KSante{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/KSante1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Leblanc{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Leblanc1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#LeeSin{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/LeeSin1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Leona{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Leona1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Lillia{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Lillia1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Lissandra{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Lissandra1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Lucian{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Lucian1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Lulu{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Lulu1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Lux{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Lux1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Malphite{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Malphite1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Malzahar{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Malzahar1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Maokai{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Maokai1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#MasterYi{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/MasterYi1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Milio{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Milio1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#MissFortune{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/MissFortune1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Mordekaiser{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Mordekaiser1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Morgana{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Morgana1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nami{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nami1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nasus{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nasus1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nautilus{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nautilus1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Neeko{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Neeko1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nidalee{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nidalee1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nilah{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nilah1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nocturne{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nocturne1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Nunu{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Nunu1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Olaf{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Olaf1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Orianna{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Orianna1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ornn{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ornn1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Pantheon{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Pantheon1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Poppy{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Poppy1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Pyke{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Pyke1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Qiyana{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Qiyana1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Quinn{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Quinn1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Rakan{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Rakan1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Rammus{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Rammus1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#RekSai{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/RekSai1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Rell{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Rell1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#RenataGlasc{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/RenataGlasc1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Renekton{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Renekton1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Rengar{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Rengar1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Riven{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Riven1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Rumble{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Rumble1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ryze{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ryze1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Samira{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Samira1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Sejuani{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Sejuani1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Senna{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Senna1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Seraphine{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Seraphine1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Sett{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Sett1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Shaco{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Shaco1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Shen{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Shen1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Shyvana{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Shyvana1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Singed{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Singed1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Sion{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Sion1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Sivir{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Sivir1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Skarner{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Skarner1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Sona{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Sona1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Soraka{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Soraka1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Swain{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Swain1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Sylas{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Sylas1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Syndra{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Syndra1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#TahmKench{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/TahmKench1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Taliyah{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Taliyah1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Talon{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Talon1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Taric{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Taric1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Teemo{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Teemo1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Thresh{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Thresh1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Tristana{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Tristana1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Trundle{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Trundle1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Tryndamere{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Tryndamere1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#TwistedFate{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/TwistedFate1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Twitch{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Twitch1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Udyr{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Udyr1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Urgot{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Urgot1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Varus{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Varus1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Vayne{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Vayne1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Veigar{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Veigar1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Velkoz{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Velkoz1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Vex{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Vex1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Vi{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Vi1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Viego{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Viego1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Viktor{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Viktor1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Vladimir{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Vladimir1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Volibear{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Volibear1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Warwick{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Warwick1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Wukong{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Wukong1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Xayah{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Xayah1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Xerath{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Xerath1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#XinZhao{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/XinZhao1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Yasuo{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Yasuo1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Yone{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Yone1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Yorick{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Yorick1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Yuumi{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Yuumi1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Zac{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Zac1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Zed{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Zed1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Zeri{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Zeri1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Ziggs{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Ziggs1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Zilean{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Zilean1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Zoe{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Zoe1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#Zyra{
+    margin:0;
+	padding:0;
+	font-family:'roboto',sans-serif;
+	background-image:url(../css/image/champion/Zyra1.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
